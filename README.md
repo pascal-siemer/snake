@@ -2,13 +2,11 @@
 Snake-Spiel zur Bewerbung als Anwendungsentwickler
 
 Ein Webserver, der das Spiel hostet, kann aufgesetzt werden, indem serve.js über node.js ausgeführt wird.
-serve.js stellt die beiden anderen Dateien index.html und snake.js bereit.
-
-index.html ist über den <script>-Tag mit dem Code in Snake.js verknüpft.
+serve.js stellt die beiden anderen Dateien index.html und snake.js bereit. index.html ist über den <script>-Tag mit dem Code in Snake.js verknüpft.
 snake.js interagiert anschließend mit dem Canvas und dem Div der index.html.
 
 PORT 1234
-- da ich nicht davon ausgehen kann, dass häufig verwendete Ports auf der Testmaschine frei sein, habe ich 1234 verwendet.
+da ich nicht davon ausgehen kann, dass häufig verwendete Ports auf der Testmaschine frei sein, habe ich 1234 verwendet.
 
 Farben: 
 Grün = Schlange/Snake/Player
